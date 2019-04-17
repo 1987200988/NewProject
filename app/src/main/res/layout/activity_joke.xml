@@ -8,12 +8,6 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         >
 
-    <data>
-
-        <variable
-                name="jokeBean"
-                type="com.baidu.isoft.newproject.bean.JokeBean" />
-    </data>
 <LinearLayout
 
         android:layout_width="match_parent"
@@ -27,16 +21,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/joke_activity_tv"
-            android:text="@{jokeBean.reasonField}"
+
             />
 
-    <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/joke_activity_tv2"
-            android:text="sdfijsdijgsdifjisdfj"
-            />
+    <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/joke_recycle"
 
+            ></androidx.recyclerview.widget.RecyclerView>
 
 </LinearLayout>
 

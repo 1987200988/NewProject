@@ -12,11 +12,12 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".business.video.VideoActivity">
+        </activity>
         <activity android:name=".business.joke.JokeActivity">
         </activity>
         <activity android:name=".business.news.NewsActivity">
         </activity>
-
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>

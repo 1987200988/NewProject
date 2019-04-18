@@ -19,7 +19,7 @@ public interface ApiService {
 
     String JOKE_KEY = "0e79585c627db86f0e9c5f0bb38c29f3";
 
-    private String BASE_URL_QUANMIN = "http://www.quanmin.tv/";
+    String BASE_URL_QUANMIN = "http://www.quanmin.tv/";
     @GET("list.php")
     Single<JokeBean> getJoke(
             @Query("key") String key,

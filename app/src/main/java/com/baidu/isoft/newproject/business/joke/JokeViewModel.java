@@ -57,9 +57,9 @@ public class JokeViewModel{
                      public void onSuccess(JokeBean jokeBean) {
                          Log.e(TAG, "onSuccess: "+jokeBean.result.data.size() );
                          RecycleJokeAdapter recycleJokeAdapter = new RecycleJokeAdapter(activity, jokeBean);
-                         activityJokeBinding.jokeRecycle.setLayoutManager(new LinearLayoutManager(activity,
+                         activityJokeBinding.recycleJoke.setLayoutManager(new LinearLayoutManager(activity,
                                  LinearLayoutManager.VERTICAL,false));
-                         activityJokeBinding.jokeRecycle.setAdapter(recycleJokeAdapter);
+                         activityJokeBinding.recycleJoke.setAdapter(recycleJokeAdapter);
 
                      }
 

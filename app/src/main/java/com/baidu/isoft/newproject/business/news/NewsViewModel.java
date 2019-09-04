@@ -4,4 +4,13 @@
 package com.baidu.isoft.newproject.business.news;
 
 public class NewsViewModel {
+
+    public NewsViewModel(){
+
+
+    }
+
+
+
+
 }

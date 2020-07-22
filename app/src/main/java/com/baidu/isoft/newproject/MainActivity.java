@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
         mainFunctionBean.newsField.set("新闻");
         mainBinding.setMainFunction(mainFunctionBean);
 //abcfffabcwoshimasterhahahah
+        //woshi shui
 
 
         viewpager2 = findViewById(R.id.viewpager2);
